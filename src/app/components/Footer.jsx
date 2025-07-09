@@ -5,7 +5,7 @@ import {
   FaGithub,
   FaYoutube,
 } from "react-icons/fa6";
-import PaymentFooter from "./paymentFooter";
+import PaymentFooter from "./PaymentFooter";
 
 export default function Footer() {
   return (
