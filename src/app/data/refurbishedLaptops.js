@@ -34,7 +34,7 @@ const refurbishedLaptops = [
   {
     id: 3,
     name: "Dell Latitude E5450",
-    image: "/Laptops/Dell Latitude E5450.jpeg",
+    image: "/Laptops/Dell Latitude E5450.jpg",
     specifications: {
       processor: "Intel Core i7 7th Gen",
       ram: "16GB DDR4",

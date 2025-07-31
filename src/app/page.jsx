@@ -4,6 +4,7 @@ import Faq from "./components/Faq";
 import refurbishedLaptops from "./data/refurbishedLaptops";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import CardsSlider from "./components/CardSlider";
 
 export default function HomePage() {
   const [ref, inView] = useInView({
@@ -250,7 +251,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-      <Testimonials />
+      <CardsSlider />
       <Faq />
       <div></div>
     </div>
